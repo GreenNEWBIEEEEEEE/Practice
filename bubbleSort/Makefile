@@ -9,7 +9,7 @@ objects = main.o BubbleSort.o
 exe : $(objects)
 	g++ -o exe $(objects)
 
-main.o : BubbleSort.h BubbleSort.cpp
+main.o : BubbleSort.h
 BubbleSort.o : BubbleSort.h
 
 clean:
